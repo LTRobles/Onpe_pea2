@@ -1,0 +1,29 @@
+2023-04-09T00:51:16.453-05:00  INFO 14776 --- [restartedMain] com.web.onpe.WebOnpeStsApplication       : Starting WebOnpeStsApplication using Java 17.0.6 with PID 14776 (D:\Lenguaje de Programacion 5R1 2023\Spring Tools for Eclipse\webOnpe_STS\target\classes started by jeamp in D:\Lenguaje de Programacion 5R1 2023\Spring Tools for Eclipse\webOnpe_STS)
+2023-04-09T00:51:16.457-05:00  INFO 14776 --- [restartedMain] com.web.onpe.WebOnpeStsApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-04-09T00:51:16.482-05:00  INFO 14776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09T00:51:16.483-05:00  INFO 14776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09T00:51:16.801-05:00  INFO 14776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-09T00:51:16.802-05:00  INFO 14776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-09T00:51:16.811-05:00  INFO 14776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2023-04-09T00:51:16.818-05:00  INFO 14776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-09T00:51:16.818-05:00  INFO 14776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-09T00:51:16.821-05:00  INFO 14776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2023-04-09T00:51:17.148-05:00  INFO 14776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-09T00:51:17.154-05:00  INFO 14776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-09T00:51:17.154-05:00  INFO 14776 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-09T00:51:17.199-05:00  INFO 14776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Initializing Spring embedded WebApplicationContext
+2023-04-09T00:51:17.199-05:00  INFO 14776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 716 ms
+2023-04-09T00:51:17.305-05:00  INFO 14776 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-09T00:51:17.333-05:00  INFO 14776 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-09T00:51:17.491-05:00  INFO 14776 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-09T00:51:17.647-05:00  INFO 14776 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 31aac2c0-4804-43ac-bb59-dc693ca5e546
+2023-04-09T00:51:17.649-05:00  INFO 14776 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-09T00:51:17.669-05:00  INFO 14776 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-09T00:51:17.833-05:00  INFO 14776 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-09T00:51:17.840-05:00  INFO 14776 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-09T00:51:17.862-05:00  WARN 14776 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-09T00:51:17.999-05:00  WARN 14776 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-04-09T00:51:18.054-05:00  WARN 14776 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-04-09T00:51:18.111-05:00  INFO 14776 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-09T00:51:18.134-05:00  INFO 14776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/onpe'
+2023-04-09T00:51:18.140-05:00  INFO 14776 --- [restartedMain] com.web.onpe.WebOnpeStsApplication       : Started WebOnpeStsApplication in 1.913 seconds (process running for 2.362)
